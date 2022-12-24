@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+#box {
+  margin-left: 30px;
+  width: 500px;
+  margin-top: 40px;
+}
+.filter-button {
+  padding: 10px 45px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom:50px;
+}
+.profession-select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #000;
+  color: white;
+}
+#card-design {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  list-style-type: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.adjust {
+  padding-right: 30px;
+}
+.todo{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+input{
+  background: transparent;
+  color: white;
+  margin-top: 10px;
+  border: #fff solid 0.5px;
+}
+.AddUser {
+  padding: 10px 35px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 20px 30px;
+}
