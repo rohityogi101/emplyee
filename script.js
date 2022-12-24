@@ -19,8 +19,6 @@ array.forEach((item) => {
   }
 });
 
-array = [...array, { id: 4, name: "Anna", age: 21, profession: "Developer" }];
-
 array.forEach((item) => {
   let cardHtml = `
         <ul id="card-design">
